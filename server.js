@@ -2,7 +2,7 @@ const express=require('express')
 const mongoose=require('mongoose')
 const Shorturl=require('./models/Shorturl')
 
-mongoose.connect("MONGO_URL",
+mongoose.connect("MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/db?retryWrites=true&w=majority",
     {useNewUrlParser:true,useUnifiedTopology:true}
 )
  
