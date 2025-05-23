@@ -32,11 +32,11 @@ npm install
 npm start
 ```
 
-The application will be available at `http://localhost:3000`
+The application will be available at `http://localhost:5000`
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:3000`
+1. Open your web browser and navigate to `http://localhost:5000`
 2. Enter the long URL you want to shorten
 3. Optionally, provide a custom short URL
 4. Click the "Shorten" button
