@@ -2,7 +2,7 @@ const express=require('express')
 const mongoose=require('mongoose')
 const Shorturl=require('./models/Shorturl')
 
-mongoose.connect("mongodb+srv://rkavipriyan11:3OAMSwaTtxlLeSes@heucomundo.zub7a.mongodb.net/?retryWrites=true&w=majority&appName=HeucoMundo",
+mongoose.connect("MONGO_URL",
     {useNewUrlParser:true,useUnifiedTopology:true}
 )
  
